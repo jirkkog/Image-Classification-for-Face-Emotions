@@ -6,7 +6,7 @@ import cv2
 from PIL import Image
 
 # Load the trained model
-MODEL_PATH = 'path_to_your_saved_model/imageclassifier.h5'
+MODEL_PATH = 'imageclassifier.h5'
 model = load_model(MODEL_PATH)
 
 # Helper function to preprocess the image
